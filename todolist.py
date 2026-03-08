@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox, simpledialog
 from tkcalendar import DateEntry
 from datetime import datetime
 
-# Add new task
+
 def add_task():
     task = entry_task.get().strip()
     desc = entry_desc.get().strip()
